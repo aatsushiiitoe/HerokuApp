@@ -1,5 +1,8 @@
 # README
 
+travis-ci
+[![BuildStatus](https://travis-ci.org/aatsushiiitoe/HerokuApp.svg?branch=master)](https://travis-ci.org/aatsushiiitoe/HerokuApp)
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
