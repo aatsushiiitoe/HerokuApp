@@ -22,13 +22,6 @@ build:
     # http://devcenter.wercker.com/docs/steps/index.html
     steps:
         - bundle-install
-  #        - script:
-  #            name: rspec
-  #            code: bundle exec rspec
-  deploy:
-    provider: heroku
-    api_key:
-      secure: MLnAFR8vT8UvSRIhd2qC60ocsZTJ7oWJhJOHuqaecFqus+fOxetUQx71xl6bg4ncIV43vHUNCr4UOJvQyHgdnkTAcy8O35npwlCvSL/Qp7zUdehjS8rNfn7F4ccH4sDs13VV4JOZhI8Foap4J3zCSKYQuK9HeEPOtVruGyb9vzjESUG9KnkdaFI023URuu05wjV2Mav400tS/yQdoTJ08slPG3lAP4qhopcfCwR30uqGiAaB4DRRDuntsU2gwhPiFvRCLi+pTKrTMHE0hSa/PO6iiUIXAxpL4g/HsgXK43OLOHcaCyIiO4bMi8zcEWn7AJhUGQ4kYaj6Q7dhHH+RWmnbq9Dy+ayvT6aSfzkKsYT4OOhH1czCjzJAEiQnzHp3xoNhipNKmYYJV7ztZdLqOef8NUsRgzzGtGY9jRkzoyylv3Pie0PE+ZuekK9m2Xhm0SslV4ZwpqRqdRstRpQju2mUv3bORLj6APUx7jfSOJwrIvuqJiyMzmFOml+ibQ+B6IXeLcHaNNjyWPsFpn+6y5uIw3PYOPG6/THTO390Qx/yq0mhnKPRjqGqdrEMCVOvBIVzCoHF+Wd3wRFK1vGgzXGDeA9sNH4F2zjul660pXYcjG/UHQ5y0eCDrLO3XPvUnMibN/Ble+PwR7hgFLRQW+x91afbWHCl6Nl9C+qFDG4=
-    app: ito-herokuapp999
-    on:
-      repo: aatsushiiitoe/HerokuApp
+          - script:
+              name: rspec
+              code: bundle exec rspecco
